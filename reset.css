@@ -1,0 +1,70 @@
+html {
+	font-size: 62.5%;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	border: none; /* optional */
+	outline: none; /* optional */
+}
+
+body {
+	font-size: 1.6rem;
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a {
+	color: inherit;
+
+	text-decoration-thickness: 8;
+	text-underline-position: under;
+	/* OR */
+	text-decoration: none;
+}
+
+label,
+button,
+select,
+summary,
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
+	cursor: pointer;
+}
+
+:focus:not(:focus-visible) {
+	outline: none;
+}
+
+/* May not be required everywhere */
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+	list-style: none;
+}
+
+menu,
+ol,
+ul {
+	padding-left: 0;
+}
+
+article ol,
+article ul {
+	list-style-position: inside;
+}
