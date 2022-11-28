@@ -7,12 +7,6 @@ Do check it out.
 
 ![Tech Stack](https://skillicons.dev/icons?i=css&theme=dark)
 
-## CSS Code
-
-![CSS Code](css.png)
-
-CSS
-
 ## About the Developer
 
 ### Hey, this is Angkush
@@ -34,3 +28,7 @@ Contact Me from [here](https://angkush.vercel.app#contact)
 <a href="https://github.com/angkushsahu" rel="noopener noreferrer" target="_blank">
   <img src="https://img.shields.io/badge/Github-gray?style=for-the-badge&logo=github&logoColor=white" alt="portfolio" />
 </a>
+
+## CSS Code
+
+![CSS Code](css.png)
