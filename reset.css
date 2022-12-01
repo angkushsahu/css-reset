@@ -23,7 +23,7 @@ body {
 	margin: 0;
 }
 
-img {
+img, picture, svg, video {
 	display: block;
 	max-width: 100%;
 }
@@ -45,6 +45,10 @@ summary,
 [type="submit"],
 [type="checkbox"] {
 	cursor: pointer;
+}
+
+input, textarea, button, select {
+	font: inherit;
 }
 
 :focus:not(:focus-visible) {
